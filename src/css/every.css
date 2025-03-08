@@ -1,0 +1,43 @@
+.flex {
+    display: flex;
+}
+.around {
+    justify-content: space-around;
+}
+.between {
+    justify-content: space-between;
+}
+.center {
+    justify-content: center;
+}
+.textcenter {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+header {
+    box-sizing: border-box;
+    background-color: darkslategray;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+header > div{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header > div > div {
+    margin: auto 0;
+}
+
+header > div > div:first-child > a:first-child {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
