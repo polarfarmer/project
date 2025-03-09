@@ -1,3 +1,4 @@
 main > div:first-of-type{
     text-align: center;
+    margin: 30px 0;
 }
